@@ -3,8 +3,8 @@
 cd ../
 
 LIB=lib
-AWS=$HOME/aws-java-sdk/1.7.9/lib/*
-THIRDPARTY=$HOME/aws-java-sdk/1.7.9/third-party/*/*
+AWS=$HOME/aws-java-sdk-1.7.9/lib/*
+THIRDPARTY=$HOME/aws-java-sdk-1.7.9/third-party/*/*
 LIBRARY=$HOME/opencv/build/lib
 
 # Jar libraries
