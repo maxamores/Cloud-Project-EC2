@@ -42,7 +42,7 @@ public class RunRecognition {
 				
 		for(int i = 0; i < links.size(); i++){
 			String user_id = links.get(i).getUser_id();
-			String picUrl = links.get(i).getGoogle_url() + "=s500"; 
+			String picUrl = links.get(i).getGoogle_url() + "=s800"; 
 			String filename = links.get(i).getBlob_key();
 			
 			FindKeyPoint find = new FindKeyPoint(picUrl, filename);
