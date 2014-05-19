@@ -3,9 +3,9 @@
 cd ../
 
 LIB=lib
-AWS=/Users/max/aws-java-sdk/1.7.9/lib/*
-THIRDPARTY=/Users/max/aws-java-sdk/1.7.9/third-party/*/*
-LIBRARY=/Users/max/Downloads/opencv-2.4.9/build/lib
+AWS=$HOME/aws-java-sdk/1.7.9/lib/*
+THIRDPARTY=$HOME/aws-java-sdk/1.7.9/third-party/*/*
+LIBRARY=$HOME/opencv/build/lib
 
 # Jar libraries
 lib_jar=`find $LIB -name *.jar | awk '{printf("%s:",$0)}'`
